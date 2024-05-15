@@ -1,0 +1,62 @@
+{ "mach": [{
+      "src": "shubh.jpg",
+      "showGradient": true,
+      "title": "Title 1",
+      "badge": "Badge 1"
+    },
+    {
+      "src": "image2.jpg",
+      "showGradient": false,
+      "title": "Title 2",
+      "badge": "Badge 2"
+    },
+    {
+      "src": "image3.jpg",
+      "showGradient": true,
+      "title": "Title 3",
+      "badge": "Badge 3"
+    },
+    {
+      "src": "image4.jpg",
+      "showGradient": false,
+      "title": "Title 4",
+      "badge": "Badge 4"
+    },
+    {
+      "src": "image5.jpg",
+      "showGradient": true,
+      "title": "Title 5",
+      "badge": "Badge 5"
+    },
+    {
+      "src": "image6.jpg",
+      "showGradient": false,
+      "title": "Title 6",
+      "badge": "Badge 6"
+    },
+    {
+      "src": "image7.jpg",
+      "showGradient": true,
+      "title": "Title 7",
+      "badge": "Badge 7"
+    },
+    {
+      "src": "image8.jpg",
+      "showGradient": false,
+      "title": "Title 8",
+      "badge": "Badge 8"
+    },
+    {
+      "src": "image9.jpg",
+      "showGradient": true,
+      "title": "Title 9",
+      "badge": "Badge 9"
+    },
+    {
+      "src": "image10.jpg",
+      "showGradient": false,
+      "title": "Title 10",
+      "badge": "Badge 10"
+    }
+  ]}
+  

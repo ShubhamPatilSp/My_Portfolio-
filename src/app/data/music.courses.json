@@ -1,0 +1,117 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Modern-Web-",
+      "slug": "",
+      "description": "",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/image.png",
+      "link": "https://shubhampatilsp.github.io/Modern-Web-/"
+    },
+    {
+      "id": 2,
+      "title": "Authentication_From",
+      "slug": "piano-for-beginners",
+      "description": "",
+      "price": 109.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "/courses/login forn.png",
+      "link": "https://github.com/ShubhamPatilSp/Authentication_From/blob/main/README.md"
+
+    },
+    {
+      "id": 4,
+      "title": "Currency-Converter",
+      "slug": "",
+      "description": "",
+      "price": 129.99,
+      "instructor": "",
+      "isFeatured": false,
+      "image": "/courses/Currency-Converter.png",
+      "link": "https://github.com/ShubhamPatilSp/Currency-Converter-Clone"
+    },
+    {
+      "id": 5,
+      "title": "Weathher",
+      "slug": "jazz-improvisation",
+      "description": "",
+      "price": 139.99,
+      "instructor": "Chris Davis",
+      "isFeatured": false,
+      "image": "/courses/Weathher.png",
+      "link": "https://github.com/ShubhamPatilSp/Weather-Website-/blob/main/README.md"
+    },
+    {
+      "id": 3,
+      "title": "Netflix_page",
+      "slug": "advanced-vocal-techniques",
+      "description": "",
+      "price": 119.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "/courses/netfix.png",
+      "link": "https://github.com/ShubhamPatilSp/Netflix_page/blob/main/README.md"
+    },
+  
+    
+    {
+      "id": 6,
+      "title": "Amazon Page",
+      "slug": "music-production-fundamentals",
+      "description": "",
+      "price": 149.99,
+      "instructor": "Alex Wilson",
+      "isFeatured": true,
+      "image": "/courses/amazon.png",
+      "link": "https://github.com/ShubhamPatilSp/Amazon-Clone/blob/main/README.md"
+    },
+    {
+      "id": 7,
+      "title": "PROJECT COMING SOON",
+      "slug": "songwriting-essentials",
+      "description": "",
+      "price": 159.99,
+      "instructor": "Samantha Miller",
+      "isFeatured": false,
+      "image": "/courses/soon.jpg",
+      "link": ""
+    },
+    {
+      "id": 8,
+      "title": "PROJECT COMING SOON",
+      "slug": "electronic-music-production",
+      "description": "",
+      "price": 169.99,
+      "instructor": "Luke Harris",
+      "isFeatured": true,
+      "image": "/courses/soon.jpg",
+      "link": ""
+    },
+    {
+      "id": 9,
+      "title": "PROJECT COMING SOON",
+      "slug": "classical-music-history",
+      "description": "",
+      "price": 179.99,
+      "instructor": "Grace Lee",
+      "isFeatured": false,
+      "image": "/courses/soon.jpg",
+      "link": ""
+    },
+    {
+      "id": 10,
+      "title": "PROJECT COMING SOON",
+      "slug": "blues-guitar-techniques",
+      "description": "",
+      "price": 189.99,
+      "instructor": "Ethan Moore",
+      "isFeatured": true,
+      "image": "/courses/soon.jpg",
+      "link": ""
+    }
+  ]
+}
