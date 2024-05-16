@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { BackgroundBeams } from '@/app/componets/ui/background_beams';
+import React from "react";
+import { BackgroundBeams } from "../componets/ui/background_beams";
 
 function MusicSchoolContactUs() {
   const name = "Shubham Patil";
@@ -20,7 +20,10 @@ function MusicSchoolContactUs() {
           Contact
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-        I am passion for programming and my BCA background make you a standout candidate. Your enthusiasm and dedication are exactly what we're looking for. I'm confident you'll make a significant impact on our team.
+          {`I am passion for programming and my BCA background make you a standout
+          candidate. Your enthusiasm and dedication are exactly what we're
+          looking for. I'm confident you'll make a significant impact on our
+          team.`}
         </p>
         <div className="space-y-4 mt-4 text-white text-center">
           <p>Name: {name}</p>

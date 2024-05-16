@@ -2,9 +2,8 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import { CardBody, CardContainer, CardItem } from "@/app/componets/ui/3d-card";
-import courseData from "@/app/data/music.courses.json";
-
+import { CardBody, CardContainer, CardItem } from "../componets/ui/3d-card";
+import courseData from "../../app/data/music.courses.json";
 
 function page() {
   return (

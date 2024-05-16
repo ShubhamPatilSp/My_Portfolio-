@@ -1,7 +1,7 @@
 "use client";
 
-import { cn } from "@/app/utils/cn";
 import React, { useEffect, useState } from "react";
+import { cn } from "../../utils/cn";
 
 export const InfiniteMovingCards = ({
   items,
@@ -25,6 +25,7 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const [start, setStart] = useState(false);
   function addAnimation() {
