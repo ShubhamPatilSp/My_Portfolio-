@@ -32,15 +32,15 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/resume"
                 className="hover:text-white transition-colors duration-300"
               >
-                Courses
+               View ALL PROJECTS
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="/contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
