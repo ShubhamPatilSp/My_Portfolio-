@@ -18,8 +18,9 @@ A personal portfolio website showcasing my projects, skills, and background.
 
 ## Usage
 
-```bash
-npm run dev
+1. Start the development server: `npm run dev`
+2. Open your web browser and visit `http://localhost:3000`
+4. npm run dev
 # or
 yarn dev
 # or
