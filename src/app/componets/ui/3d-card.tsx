@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@/app/utils/cn";
+import { cn } from "../../utils/cn";
 import Image from "next/image";
 import React, {
   createContext,
@@ -108,7 +108,7 @@ export const CardItem = ({
   ...rest
 }: {
   as?: React.ElementType;
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
   translateX?: number | string;
   translateY?: number | string;
@@ -123,6 +123,7 @@ export const CardItem = ({
 
   useEffect(() => {
     handleAnimations();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isMouseEntered]);
 
   const handleAnimations = () => {

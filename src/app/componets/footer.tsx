@@ -5,7 +5,10 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-          I am  passion for programming and my BCA background make you a standout candidate. Your enthusiasm and dedication are exactly what we're looking for. I'm confident you'll make a significant impact on our team.
+            {` I am passion for programming and my BCA background make you a
+            standout candidate. Your enthusiasm and dedication are exactly what
+            we're looking for. I'm confident you'll make a significant impact on
+            our team.`}
           </p>
         </div>
         <div>
@@ -48,7 +51,6 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
-          
             <a
               href="https://github.com/ShubhamPatilSp"
               className="hover:text-white transition-colors duration-300"

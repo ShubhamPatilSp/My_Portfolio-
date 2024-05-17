@@ -3,7 +3,7 @@ import React from "react";
 import reactElementToJSXString from "react-element-to-jsx-string";
 import { toast, Toaster } from "sonner";
 import { ButtonsCard } from "../componets/ui/tailwindcss-buttons";
-import skillData from "@/app/data/skill.json";
+import skillData from "../../app/data/skill.json";
 
 function Page() {
   const copy = (button) => {
@@ -16,19 +16,19 @@ function Page() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
       <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
-    MY SKILLS
-</h1>
+        MY SKILLS
+      </h1>
 
       <div className="flex flex-wrap justify-center">
         <div className="pb-40 px-4 w-full">
           <Toaster position="top-center" />
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full max-w-7xl mx-auto gap-10">
-  {buttons.map((button, idx) => (
-    <ButtonsCard key={idx} onClick={() => copy(button)}>
-      {button.component}
-    </ButtonsCard>
-  ))}
-</div>
+            {buttons.map((button, idx) => (
+              <ButtonsCard key={idx} onClick={() => copy(button)}>
+                {button.component}
+              </ButtonsCard>
+            ))}
+          </div>
         </div>
       </div>
     </div>
@@ -36,7 +36,6 @@ function Page() {
 }
 
 export const buttons = [
-  
   {
     name: "Unapologetic",
     description: "Unapologetic button with perfect corners",
@@ -48,7 +47,7 @@ export const buttons = [
     ),
   },
   // ... (rest of the button data)
-{
+  {
     name: "Shimmer",
     description: "Shimmer button for your website",
     // showDot: false,
@@ -122,7 +121,6 @@ export const buttons = [
     component: (
       <p className="px-4 py-2 rounded-md border border-black bg-white text-neutral-700 text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200">
         #mongoDB
-
       </p>
     ),
   },
@@ -152,13 +150,12 @@ export const buttons = [
     ),
   },
 
-
   {
     name: "Favourite",
     description: "Favourite button for your website",
     component: (
       <p className="px-8 py-2  bg-black text-white text-sm rounded-md font-semibold hover:bg-black/[0.8] hover:shadow-lg">
-       #CSS
+        #CSS
       </p>
     ),
   },
@@ -194,11 +191,11 @@ export const buttons = [
     description: "Next.js White button for your website",
     component: (
       <p className="shadow-[0_4px_14px_0_rgb(0,0,0,10%)] hover:shadow-[0_6px_20px_rgba(93,93,93,23%)] px-8 py-2 bg-[#fff] text-[#696969] rounded-md font-light transition duration-200 ease-linear">
-       #github
+        #github
       </p>
     ),
   },
- 
+
   {
     name: "Backdrop Blur",
     description: "Outline button for your website",
