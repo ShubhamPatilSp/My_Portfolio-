@@ -24,7 +24,7 @@ const MacbookScrollDemo: React.FC<MacbookScrollDemoProps> = ({ className }) => {
             <Badge className="h-10 w-10 transform -rotate-12" />
           </Link>
         }
-        src="/courses/shubham.png" // Removed curly braces around the image path
+        src="/courses/resume.png" // Removed curly braces around the image path
         showGradient={false}
       />
       <div className="flex justify-center mt-4">
