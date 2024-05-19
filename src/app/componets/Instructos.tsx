@@ -29,7 +29,7 @@ const instructors = [
       name: 'Anurag sir',
       designation: 'Teacher',
       image:
-        '/courses/Anurag sir',
+        '/courses/Anurag sir.png',
     },
   ];
 
