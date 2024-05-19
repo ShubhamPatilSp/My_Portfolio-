@@ -26,10 +26,10 @@ const instructors = [
     },
     {
       id: 4,
-      name: 'Shradha Khapra',
+      name: 'Anurag sir',
       designation: 'Teacher',
       image:
-        '/courses/shradha Di.jpeg',
+        '/courses/Anurag sir',
     },
   ];
 
