@@ -1,6 +1,17 @@
 {
   "courses": [
     {
+      "id": 2,
+      "title": "Authentication_From",
+      "slug": "piano-for-beginners",
+      "description": "",
+      "price": 109.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "/courses/Traveller.png",
+      "link": "https://traveller-node.onrender.com/listings"
+    },
+    {
       "id": 1,
       "title": "Modern-Web-",
       "slug": "",
@@ -10,6 +21,7 @@
       "isFeatured": true,
       "image": "/courses/image.png",
       "link": "https://modern-web-kohl.vercel.app/"
+
     },
     {
       "id": 2,
