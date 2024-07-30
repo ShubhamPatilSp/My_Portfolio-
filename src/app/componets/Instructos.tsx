@@ -5,10 +5,10 @@ import { AnimatedTooltip } from "./ui/animated-tooltip";
 const instructors = [
     {
       id: 1,
-      name: 'Shubham Patil',
-      designation: 'Programmer',
+      name: 'harkirat singh',
+      designation: 'Teacher',
       image:
-        '/courses/shubham.jpg',
+        '/courses/harkirat singh.jpg',
     },
     {
       id: 2,
@@ -19,10 +19,10 @@ const instructors = [
     },
     {
       id: 3,
-      name: 'Akash Gupta',
+      name: 'shradha khapra',
       designation: 'Teacher',
       image:
-        '/courses/Akash Gupta.png',
+        '/courses/shradha khapra.jpg',
     },
     {
       id: 4,
