@@ -9,7 +9,19 @@
       "instructor": "Jane Smith",
       "isFeatured": false,
       "image": "/courses/Traveller.png",
-      "link": "https://traveller-puce.vercel.app/listings"
+      "link": "https://traveller-node.onrender.com/listings"
+    },
+    {
+      "id": 1,
+      "title": "Modern-Web-",
+      "slug": "",
+      "description": "",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/virtualr.png",
+      "link": "https://virtualr-main-mbgd6q5lx-shubhampatilsps-projects.vercel.app/"
+
     },
     {
       "id": 1,
