@@ -40,7 +40,7 @@ function HeroSection() {
           Innovative Full Stack Developer specializing in JavaScript, TypeScript, Next.js, and MERN stack.
           Experienced in Web3, Ethereum, and Solidity. Passionate open-source contributor crafting seamless digital experiences.
         </motion.p>
-        <motion.div
+        <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: mounted ? 1 : 0, y: mounted ? 0 : 20 }}
           transition={{ duration: 0.5, delay: 0.4 }}
