@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Linkedin, Twitter, X } from "lucide-react";
+import { Github, Linkedin, X } from "lucide-react";
 
 const SocialIcon = ({ href, icon: Icon, label }) => (
   <a
@@ -23,7 +23,7 @@ function Footer() {
             <p className="text-sm">
               I am passionate about programming, and my BCA background makes me a
               standout candidate. My enthusiasm and dedication are exactly what
-              you're looking for. I'm confident I will make a significant impact on your team.
+              you&apos;re looking for. I&apos;m confident I will make a significant impact on your team.
             </p>
           </div>
           <div className="mb-8 md:mb-0">
