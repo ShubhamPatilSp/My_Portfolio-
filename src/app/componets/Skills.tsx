@@ -49,7 +49,7 @@ const skills = {
 const SkillsSection = () => {
     return (
         <div className="container mx-auto px-4 py-8 max-w-4xl">
-            <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">My Skills</h1>
+            <h1 className="text-3xl font-bold text-bg-white-800 mb-8 text-center">My Skills</h1>
             <div className="grid gap-8 md:grid-cols-2">
                 {Object.entries(skills).map(([category, skillList]) => (
                     <div key={category} className="bg-white rounded-lg shadow-md p-6">
