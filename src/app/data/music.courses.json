@@ -92,50 +92,7 @@
       "isFeatured": true,
       "image": "/courses/amazon.png",
       "link": "https://amazon-clone-three-sandy.vercel.app/"
-    },
-    {
-      "id": 7,
-      "title": "PROJECT COMING SOON",
-      "slug": "songwriting-essentials",
-      "description": "",
-      "price": 159.99,
-      "instructor": "Samantha Miller",
-      "isFeatured": false,
-      "image": "/courses/soon.jpg",
-      "link": ""
-    },
-    {
-      "id": 8,
-      "title": "PROJECT COMING SOON",
-      "slug": "electronic-music-production",
-      "description": "",
-      "price": 169.99,
-      "instructor": "Luke Harris",
-      "isFeatured": true,
-      "image": "/courses/soon.jpg",
-      "link": ""
-    },
-    {
-      "id": 9,
-      "title": "PROJECT COMING SOON",
-      "slug": "classical-music-history",
-      "description": "",
-      "price": 179.99,
-      "instructor": "Grace Lee",
-      "isFeatured": false,
-      "image": "/courses/soon.jpg",
-      "link": ""
-    },
-    {
-      "id": 10,
-      "title": "PROJECT COMING SOON",
-      "slug": "blues-guitar-techniques",
-      "description": "",
-      "price": 189.99,
-      "instructor": "Ethan Moore",
-      "isFeatured": true,
-      "image": "/courses/soon.jpg",
-      "link": ""
     }
+    
   ]
 }

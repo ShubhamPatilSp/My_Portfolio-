@@ -7,23 +7,22 @@ import { useState } from "react";
 
 interface Course {
   id: number;
-  title: String;
-  slug: String;
-  description: String;
+  title: string;
+  slug: string;
+  description: string;
   price: number;
-  instructor: String;
+  instructor: string;
   isFeatured: boolean;
   image: any;
 }
+
 function FeaturedCourses() {
   const [firstImageRendered, setFirstImageRendered] = useState(false);
-  const FeaturedCourses = courseData.courses.filter(
-    (course: Course) => course.isFeatured
-  );
 
   const featuredCourses = courseData.courses.filter(
     (course: Course) => course.isFeatured
   );
+
   return (
     <div className="py-12 bg-gray-900">
       <div>
@@ -59,7 +58,7 @@ function FeaturedCourses() {
                   </p>
                   <div className="mt-20 text-center">
                     <Link
-                      href={"/courses"}
+                      href="/courses"
                       className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
                     >
                       View PROJECTS
@@ -71,10 +70,9 @@ function FeaturedCourses() {
           ))}
         </div>
       </div>
-
       <div className="mt-20 text-center">
         <Link
-          href={"/courses"}
+          href="/courses"
           className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
         >
           View ALL PROJECTS
@@ -83,4 +81,5 @@ function FeaturedCourses() {
     </div>
   );
 }
+
 export default FeaturedCourses;
