@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from 'framer-motion';
 import { Spotlight } from "./ui/Spotlight";
 
-function HeroSection() {
+const HeroSection = () => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -40,18 +40,24 @@ function HeroSection() {
           Innovative Full Stack Developer specializing in JavaScript, TypeScript, Next.js, and MERN stack.
           Experienced in Web3, Ethereum, and Solidity. Passionate open-source contributor crafting seamless digital experiences.
         </motion.p>
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: mounted ? 1 : 0, y: mounted ? 0 : 20 }}
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-10 flex items-center justify-center gap-x-6"
         >
-          {/* <Link href="/projects" className="rounded-md bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600 transition-all duration-200">
+          <Link
+            href="/projects"
+            className="rounded-md bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600 transition-all duration-200"
+          >
             View Projects
           </Link>
-          <Link href="/contact" className="text-sm font-semibold leading-6 text-white hover:text-emerald-400 transition-all duration-200">
+          <Link
+            href="/contact"
+            className="text-sm font-semibold leading-6 text-white hover:text-emerald-400 transition-all duration-200"
+          >
             Contact Me <span aria-hidden="true">→</span>
-          </Link> */}
+          </Link>
         </motion.div>
       </div>
     </section>
