@@ -15,11 +15,10 @@ const skills = [
   "Express.js",
 ];
 
-const SkillsSection = () => {
+const SkillsSection: React.FC = () => {
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>My Skills</h1>
-
       <div style={styles.skillsContainer}>
         {skills.map((skill, index) => (
           <div key={index} style={styles.skillCard}>
@@ -31,13 +30,13 @@ const SkillsSection = () => {
   );
 };
 
-const styles = {
+const styles: { [key: string]: React.CSSProperties } = {
   container: {
     fontFamily: "Arial, sans-serif",
     margin: "0 auto",
     padding: "20px",
     maxWidth: "900px",
-    textAlign: "center",
+    textAlign: "center" as React.TextAlign, // Type assertion to avoid the error
   },
   title: {
     fontSize: "28px",
