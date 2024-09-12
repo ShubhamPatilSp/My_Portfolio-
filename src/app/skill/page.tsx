@@ -36,7 +36,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     margin: "0 auto",
     padding: "20px",
     maxWidth: "900px",
-    textAlign: "center" as React.TextAlign, // Type assertion to avoid the error
+    textAlign: "center", // Type assertion to avoid the error
   },
   title: {
     fontSize: "28px",
