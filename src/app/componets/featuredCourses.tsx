@@ -46,9 +46,8 @@ function FeaturedCourses() {
                   alt="jordans"
                   height="400"
                   width="400"
-                  className={`object-contain ${
-                    index === 0 && !firstImageRendered ? "" : "blur-md"
-                  }`}
+                  className={`object-contain ${index === 0 && !firstImageRendered ? "" : "blur-md"
+                    }`}
                   onLoadingComplete={() => setFirstImageRendered(true)}
                 />
                 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
