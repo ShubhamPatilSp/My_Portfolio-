@@ -46,7 +46,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-10 flex items-center justify-center gap-x-6"
         >
-          <Link
+          {/* <Link
             href="/projects"
             className="rounded-md bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600 transition-all duration-200"
           >
@@ -57,7 +57,7 @@ const HeroSection = () => {
             className="text-sm font-semibold leading-6 text-white hover:text-emerald-400 transition-all duration-200"
           >
             Contact Me <span aria-hidden="true">→</span>
-          </Link>
+          </Link> */}
         </motion.div>
       </div>
     </section>
