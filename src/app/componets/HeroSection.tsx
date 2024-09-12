@@ -18,7 +18,7 @@ function HeroSection() {
           Shubham Patil
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-        I thrive on the creativity and challenge of programming, constantly seeking to build innovative solutions that stand out from the crowd.
+       Full Stack Developer skilled in JavaScript, TypeScript, Next.js, and the MERN stack, with experience in Web3, Ethereum, Solidity, and open-source contributions.
         </p>
         <div className="mt-4">
           <Link href={"/skill"}>
