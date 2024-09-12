@@ -1,9 +1,11 @@
 import Contact from "./componets/Contact";
+import Footer from "./componets/footer";
 import HeroSection from "./componets/HeroSection";
 import Projects from "./componets/Projects";
-import Resume from "./componets/Resume";
+import SimpleResumeViewer from "./componets/Resume";
 import SkillsSection from "./componets/Skills";
-import Footer from "./componets/footer";
+
+// Remove the lines with merge conflict markers and any extraneous imports or components.
 
 export default function Home() {
   return (
@@ -11,7 +13,7 @@ export default function Home() {
       <HeroSection />
       <Projects />
       <SkillsSection />
-      <Resume />
+      <SimpleResumeViewer />
       <Contact />
       <Footer />
     </main>

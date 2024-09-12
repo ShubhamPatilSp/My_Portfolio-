@@ -25,8 +25,9 @@ const skills = {
   ]
 };
 
-const SkillsSection = () => {
+const SkillsSection: React.FC = () => {
   return (
+<<<<<<< HEAD
     <div className="container mx-auto px-4 py-8 max-w-4xl">
       <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">My Skills</h1>
       <div className="grid gap-8 md:grid-cols-2">
@@ -43,6 +44,14 @@ const SkillsSection = () => {
                 </span>
               ))}
             </div>
+=======
+    <div style={styles.container}>
+      <h1 style={styles.title}>My Skills</h1>
+      <div style={styles.skillsContainer}>
+        {skills.map((skill, index) => (
+          <div key={index} style={styles.skillCard}>
+            {skill}
+>>>>>>> b92fa9ef4ed658a32735bb155af24150bbe3c00f
           </div>
         ))}
       </div>
@@ -50,4 +59,40 @@ const SkillsSection = () => {
   );
 };
 
+<<<<<<< HEAD
 export default SkillsSection;
+=======
+const styles: { [key: string]: React.CSSProperties } = {
+  container: {
+    fontFamily: "Arial, sans-serif",
+    margin: "0 auto",
+    padding: "20px",
+    maxWidth: "900px",
+    textAlign: "center", // Type assertion to avoid the error
+  },
+  title: {
+    fontSize: "28px",
+    margin: "40px 0 20px",
+    color: "#333", // Dark gray for a professional look
+  },
+  skillsContainer: {
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+    gap: "20px",
+    marginTop: "20px",
+  },
+  skillCard: {
+    backgroundColor: "#333", // Dark background for the card
+    border: "1px solid #444",
+    borderRadius: "8px",
+    padding: "20px",
+    fontSize: "18px",
+    color: "#ffffff", // White text for better contrast
+    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Subtle shadow for depth
+    transition: "background-color 0.3s, color 0.3s", // Smooth transition for hover effect
+    cursor: "pointer", // Pointer cursor on hover
+  },
+};
+
+export default SkillsSection;
+>>>>>>> b92fa9ef4ed658a32735bb155af24150bbe3c00f

@@ -22,8 +22,10 @@ function Footer() {
           {/* About Us Section */}
           {/* <div className="mb-8">
             <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
-            <p className="text-sm leading-relaxed">
-              I am passionate about programming, and my BCA background makes me a standout candidate. My enthusiasm and dedication are exactly what you're looking for. I am confident I will make a significant impact on your team.
+            <p className="text-sm">
+              I am passionate about programming, and my BCA background makes me a
+              standout candidate. My enthusiasm and dedication are exactly what
+              you're looking for. I'm confident I will make a significant impact on your team.
             </p>
           </div> */}
 
