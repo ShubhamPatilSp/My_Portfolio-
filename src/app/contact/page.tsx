@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { BackgroundBeams } from "../componets/ui/background_beams";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Twitter, X } from "lucide-react";
 import { Button } from "../componets/ui/moving-border";
 
 function MusicSchoolContactUs() {
@@ -53,7 +53,7 @@ function MusicSchoolContactUs() {
           </Button>
           <Button asChild variant="outline">
             <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
-              <Twitter className="w-5 h-5 mr-2" />
+              <X className="w-5 h-5 mr-2" />
               Twitter
             </a>
           </Button>

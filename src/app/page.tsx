@@ -10,13 +10,13 @@ import Footer from "./componets/footer";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
-    <HeroSection />
-    <FeaturedCourses/>
-    {/* <WhyChooseUs/> */}
-    <MusicSchoolTestTestimonial/>
-    <UpcomingWebinars/>
-    <Instructors/>
-    <Footer/>
+      <HeroSection />
+      <FeaturedCourses />
+      {/* <WhyChooseUs/> */}
+      {/* <MusicSchoolTestTestimonial/> */}
+      {/* <UpcomingWebinars /> */}
+      <Instructors />
+      <Footer />
     </main>
   );
 }
