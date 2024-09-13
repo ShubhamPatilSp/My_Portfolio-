@@ -1,6 +1,7 @@
 import Contact from "./componets/Contact";
 import HeroSection from "./componets/HeroSection";
 import Projects from "./componets/Projects";
+import DigitalResume from "./componets/Resume";
 import Resume from "./componets/Resume";
 import SkillsSection from "./componets/Skills";
 import Footer from "./componets/footer";
