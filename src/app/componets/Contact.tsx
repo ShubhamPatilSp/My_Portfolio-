@@ -1,7 +1,8 @@
 "use client";
+
 import React from "react";
 import { BackgroundBeams } from "../componets/ui/background_beams";
-import { Github, Linkedin, Twitter, X } from "lucide-react";
+import { Github, Linkedin, X } from "lucide-react";
 import { Button } from "../componets/ui/moving-border";
 
 function Contact() {
@@ -57,7 +58,7 @@ function Contact() {
                 </div>
                 <div className="text-center mt-16">
                     <p className="text-gray-500 text-sm">
-
+                        {/* Additional content or message here if needed */}
                     </p>
                 </div>
             </div>
