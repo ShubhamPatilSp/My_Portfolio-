@@ -1,10 +1,32 @@
 {
   "courses": [
     {
+      "id": 1,
+      "title": "video-processing-pipeline",
+      "slug": "",
+      "description": "",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/video-processing-pipeline.png",
+      "link": "https://github.com/ShubhamPatilSp/video-processing-pipeline"
+    },
+    {
+      "id": 1,
+      "title": "Clone-Your-Project",
+      "slug": "",
+      "description": "",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/clone-your-project.png",
+      "link": "https://github.com/ShubhamPatilSp/clone-your-project"
+    },
+    {
       "id": 2,
       "title": "Traveller",
       "slug": "piano-for-beginners",
-      "description": "",
+      "description": "Live",
       "price": 109.99,
       "instructor": "Jane Smith",
       "isFeatured": false,
@@ -15,25 +37,23 @@
       "id": 1,
       "title": "virtualr",
       "slug": "",
-      "description": "",
+      "description": "Live",
       "price": 99.99,
       "instructor": "John Doe",
       "isFeatured": true,
       "image": "/courses/virtualr.png",
       "link": "https://virtualr-main-git-main-shubhampatilsps-projects.vercel.app/"
-
     },
     {
       "id": 1,
       "title": "Modern-Web-",
       "slug": "",
-      "description": "",
+      "description": "Live",
       "price": 99.99,
       "instructor": "John Doe",
       "isFeatured": true,
       "image": "/courses/image.png",
       "link": "https://modern-web-kohl.vercel.app/"
-
     },
     {
       "id": 2,
@@ -45,30 +65,30 @@
       "isFeatured": false,
       "image": "/courses/login-page.png",
       "link": "https://authentication-from.vercel.app/"
-
-    },
-    {
-      "id": 4,
-      "title": "Currency-Converter",
-      "slug": "",
-      "description": "",
-      "price": 129.99,
-      "instructor": "",
-      "isFeatured": false,
-      "image": "/courses/Currency-Converter.png",
-      "link": "https://currency-converter-clone.vercel.app/"
     },
     {
       "id": 5,
       "title": "Weathher",
       "slug": "jazz-improvisation",
-      "description": "",
+      "description": "Live",
       "price": 139.99,
       "instructor": "Chris Davis",
       "isFeatured": false,
       "image": "/courses/Weathher.png",
       "link": "https://weather-website-ten-gamma.vercel.app/"
     },
+    {
+      "id": 4,
+      "title": "Currency-Converter",
+      "slug": "",
+      "description": "Live",
+      "price": 129.99,
+      "instructor": "",
+      "isFeatured": false,
+      "image": "/courses/Currency-Converter.png",
+      "link": "https://currency-converter-clone.vercel.app/"
+    },
+
     {
       "id": 3,
       "title": "Netflix_page",
@@ -80,8 +100,7 @@
       "image": "/courses/netfix.png",
       "link": "https://netflix-kohl-three.vercel.app/"
     },
-  
-    
+
     {
       "id": 6,
       "title": "Amazon Page",
@@ -93,6 +112,5 @@
       "image": "/courses/amazon.png",
       "link": "https://amazon-clone-three-sandy.vercel.app/"
     }
-    
   ]
 }
