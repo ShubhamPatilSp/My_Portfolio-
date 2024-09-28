@@ -37,7 +37,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-6 text-lg leading-8 text-gray-300 max-w-2xl"
         >
-          Full Stack Web3 Developer skilled in JavaScript, TypeScript, Next.js, and the MERN stack, with experience in Web3, Ethereum, Solidity, and open-source contributions.
+          Full Stack Developer skilled in MERN stack, AWS, and automation. Experienced in building dynamic applications and optimizing performance with CI/CD.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
