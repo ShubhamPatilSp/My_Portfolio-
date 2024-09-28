@@ -1,4 +1,4 @@
-"use client"; // Add this line at the top
+"use client";
 
 import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
@@ -17,13 +17,12 @@ const Resume = () => {
     }, []);
 
     return (
-
         <div className="bg-black text-gray-300 min-h-screen p-8 font-sans">
             <h1 className="text-3xl font-bold text-bg-white-900 mb-8 text-center">Resume</h1>
             <div className="max-w-5xl mx-auto bg-gray-900 shadow-2xl rounded-lg overflow-hidden border border-gray-800">
                 <header className="bg-gradient-to-r from-purple-900 to-indigo-900 text-white p-10">
                     <h1 className="text-5xl font-bold mb-2">Shubham Patil</h1>
-                    <p className="text-xl mb-4">Full Stack Web3 Developer</p>
+                    <p className="text-xl mb-4">Full Stack Developer</p>
                     <div className="flex flex-wrap gap-4 text-sm">
                         {["xshuubhampatil@gmail.com", "+91 8421518624", "LinkedIn", "GitHub", "Portfolio"].map((item, index) => (
                             <a key={index} href="#" className="px-3 py-1 bg-black bg-opacity-30 rounded-full hover:bg-opacity-50 transition duration-300">
@@ -39,17 +38,62 @@ const Resume = () => {
                         {isClient && (
                             <>
                                 <ProjectCard
+                                    title="AutoDeploy Pipeline"
+                                    description="Developed a comprehensive automation pipeline to clone repositories, build projects, and upload outputs to AWS S3 using Node.js and Redis for logging."
+                                    details={[
+                                        "Repository Cloning: Utilized child process to clone Git repositories and execute build scripts.",
+                                        "Build Process: Managed project builds by reading package.json, executing npm commands, and handling stdout/stderr logging.",
+                                        "S3 Integration: Employed the AWS SDK to upload built files to a specified S3 bucket.",
+                                        "Logging Mechanism: Integrated Redis for real-time logging of the pipeline process.",
+                                        "Environment Configuration: Utilized environment variables for secure configuration.",
+                                    ]}
+                                    technologies={[
+                                        "Node.js",
+                                        "AWS SDK",
+                                        "Redis",
+                                        "Git",
+                                        "npm",
+                                        "JavaScript",
+                                        "TypeScript",
+                                        "EJS",
+                                        "Bash scripting",
+                                        "Docker",
+                                    ]}
+                                />
+                                <ProjectCard
+                                    title="Video Transcoder"
+                                    description="Automated video transcoding pipeline using AWS S3 and FFmpeg for multiple resolutions."
+                                    details={[
+                                        "S3 Integration: Utilizes the AWS SDK to download original videos from S3 and upload transcoded versions.",
+                                        "FFmpeg Utilization: Implements fluent-ffmpeg to transcode videos into 360p, 480p, and 720p resolutions.",
+                                        "Environment Management: Loads environment variables for configuration.",
+                                        "Asynchronous Processing: Employs Promises for handling multiple transcoding operations concurrently.",
+                                        "File Handling: Utilizes Node.js's fs module for file operations.",
+                                    ]}
+                                    technologies={[
+                                        "Node.js",
+                                        "AWS SDK",
+                                        "FFmpeg",
+                                        "JavaScript",
+                                        "TypeScript",
+                                        "EJS",
+                                        "Promises",
+                                        "S3",
+                                    ]}
+                                />
+                                <ProjectCard
                                     title="Traveller"
                                     description="A refined travel platform inspired by Airbnb, offering personalized stays."
                                     details={[
-                                        "Dynamic User Authentication with Passport.js and Express-Session.",
-                                        "Enhanced Data Handling with Express.js and Joi.",
-                                        "Image Management using Cloudinary.",
-                                        "Responsive Design with Bootstrap and EJS.",
-                                        "Comprehensive Middleware for session management, error handling, and validation.",
+                                        "Dynamic User Authentication: Integrates Passport.js for seamless user authentication and session management.",
+                                        "Enhanced Data Handling: Utilizes Express.js and Joi for dynamic routing and robust data validation.",
+                                        "Image Management: Integrates Cloudinary for efficient image storage and management.",
+                                        "User Experience: Features responsive design with Bootstrap and EJS.",
+                                        "Comprehensive Middleware: Implements middleware for session management, error handling, and validation.",
                                     ]}
                                     technologies={[
                                         "MERN Stack",
+                                        "EJS",
                                         "Passport.js",
                                         "Express-Session",
                                         "Joi",
@@ -59,25 +103,14 @@ const Resume = () => {
                                 />
                                 <ProjectCard
                                     title="Portfolio"
-                                    description="A personal portfolio website showcasing projects and skills with a modern, visually striking design."
+                                    description="A modern portfolio website built with Next.js and Tailwind CSS, showcasing projects and skills with a visually striking design."
                                     details={[
-                                        "Futuristic Design Elements with animated tooltips, gradient backgrounds, and hover effects.",
-                                        "Advanced UI Components including infinite scrolling and customized navigation.",
-                                        "Interactive Features like spotlight effects, sticky scroll reveals, and wavy backgrounds.",
+                                        "Design Features: Incorporates animated tooltips, gradient backgrounds, and hover effects.",
+                                        "Interactive Elements: Includes infinite scrolling, custom navigation menus, spotlight effects, and sticky scroll reveals.",
+                                        "Showcase Sections: Highlights featured projects, includes a hero section, team member section, and custom footer.",
+                                        "Custom Components: Features testimonial cards and a section detailing reasons to choose the services offered.",
                                     ]}
-                                    technologies={["Next.js", "Tailwind CSS", "Animated UI Components"]}
-                                />
-                                <ProjectCard
-                                    title="VirtualR"
-                                    description="A sleek, modern page designed for creating VR environments with user-friendly tools."
-                                    details={[
-                                        "User-Friendly Design with a drag-and-drop interface.",
-                                        "Cross-Platform Functionality for mobile devices, desktops, and VR headsets.",
-                                        "Real-Time Updates & Collaboration features.",
-                                        "Analytics Integration for tracking user interactions and performance.",
-                                        "Flexible Pricing Plans to meet different needs.",
-                                    ]}
-                                    technologies={["React", "Tailwind CSS", "VR Technologies"]}
+                                    technologies={["Next.js", "React.js", "Tailwind CSS", "JavaScript", "TypeScript"]}
                                 />
                             </>
                         )}
@@ -87,16 +120,16 @@ const Resume = () => {
                         <h2 className="text-3xl font-semibold mb-6 text-white">Skills</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <SkillCategory
-                                title="Blockchain & Web3"
+                                title="Front-end Technologies"
                                 skills={[
-                                    "Solidity",
-                                    "Ethereum",
-                                    "Smart Contracts",
-                                    "Web3.js",
-                                    "Ethers.js",
-                                    "dApps",
-                                    "OpenZeppelin Contracts",
-                                    "Gas Optimization",
+                                    "Next.js",
+                                    "React.js",
+                                    "JavaScript",
+                                    "TypeScript",
+                                    "HTML",
+                                    "CSS",
+                                    "Tailwind",
+                                    "Bootstrap",
                                 ]}
                             />
                             <SkillCategory
@@ -106,39 +139,16 @@ const Resume = () => {
                                     "Express.js",
                                     "Mongoose",
                                     "MongoDB",
-                                    "JWT",
-                                    "Passport.js",
-                                    "Express-Session",
-                                    "Cloudinary",
+                                    "Redis",
                                 ]}
                             />
                             <SkillCategory
-                                title="Front-end Technologies"
+                                title="DevOps"
                                 skills={[
-                                    "HTML",
-                                    "CSS",
-                                    "Tailwind",
-                                    "Bootstrap",
-                                    "JavaScript",
-                                    "TypeScript",
-                                    "React.js",
-                                    "Next.js",
-                                    "EJS",
-                                ]}
-                            />
-                            <SkillCategory
-                                title="Additional Technologies"
-                                skills={[
-                                    "Java",
-                                    "GitHub",
-                                    "MetaMask",
-                                    "Truffle",
-                                    "Hardhat",
-                                    "Solidity Documentation",
-                                    "OpenZeppelin Documentation",
-                                    "Ethereum Whitepaper",
-                                    "Mastering Blockchain",
-                                    "Mastering Ethereum",
+                                    "Docker",
+                                    "Deploying to AWS servers",
+                                    "Kubernetes",
+                                    "CI/CD",
                                 ]}
                             />
                         </div>
@@ -198,7 +208,6 @@ const ProjectCard = ({ title, description, details, technologies }) => (
                 </span>
             ))}
         </div>
-
     </MotionDiv>
 );
 
@@ -212,7 +221,6 @@ const SkillCategory = ({ title, skills }) => (
                 </span>
             ))}
         </div>
-
     </div>
 );
 
