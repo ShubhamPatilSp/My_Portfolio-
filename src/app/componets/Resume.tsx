@@ -24,12 +24,25 @@ const Resume = () => {
                     <h1 className="text-5xl font-bold mb-2">Shubham Patil</h1>
                     <p className="text-xl mb-4">Full Stack Developer</p>
                     <div className="flex flex-wrap gap-4 text-sm">
-                        {["xshuubhampatil@gmail.com", "+91 8421518624", "LinkedIn", "GitHub", "Portfolio"].map((item, index) => (
-                            <a key={index} href="#" className="px-3 py-1 bg-black bg-opacity-30 rounded-full hover:bg-opacity-50 transition duration-300">
-                                {item}
+                        {[
+                            { name: "xshuubhampatil@gmail.com", link: "mailto:xshuubhampatil@gmail.com" },
+                            { name: "+91 8421518624", link: "tel:+918421518624" },
+                            { name: "LinkedIn", link: "https://www.linkedin.com/in/shubham-patil-8494982b0" },
+                            { name: "GitHub", link: "https://github.com/ShubhamPatilSp" },
+                            { name: "Portfolio", link: "#" }
+                        ].map((item, index) => (
+                            <a
+                                key={index}
+                                href={item.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-3 py-1 bg-black bg-opacity-30 rounded-full hover:bg-opacity-50 transition duration-300"
+                            >
+                                {item.name}
                             </a>
                         ))}
                     </div>
+
                 </header>
 
                 <main className="p-10">
