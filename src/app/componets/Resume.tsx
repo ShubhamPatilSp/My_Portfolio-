@@ -140,13 +140,16 @@ const Resume = () => {
                                     "Mongoose",
                                     "MongoDB",
                                     "Redis",
+                                    "Kafka",
+                                    "Postgresql",
+                                    "Prisma",
                                 ]}
                             />
                             <SkillCategory
                                 title="DevOps"
                                 skills={[
                                     "Docker",
-                                    "Deploying to AWS servers",
+                                    "AWS",
                                     "Kubernetes",
                                     "CI/CD",
                                 ]}
