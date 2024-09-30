@@ -1,26 +1,6 @@
 import React from 'react';
 
 const skills = {
-    "Blockchain & Web3": [
-        "Solidity",
-        "Ethereum",
-        "Smart Contracts",
-        "Web3.js",
-        "Ethers.js",
-        "dApps",
-        "OpenZeppelin Contracts",
-        "Gas Optimization"
-    ],
-    "Back-end Technologies": [
-        "Node.js",
-        "Express.js",
-        "Mongoose",
-        "MongoDB",
-        "JWT",
-        "Passport.js",
-        "Express-Session",
-        "Cloudinary",
-    ],
     "Front-end Technologies": [
         "HTML",
         "CSS",
@@ -32,17 +12,24 @@ const skills = {
         "Next.js",
         "EJS",
     ],
-    "Additional Technologies": [
-        "Java",
-        "GitHub",
-        "MetaMask",
-        "Truffle",
-        "Hardhat",
-        "Solidity Documentation",
-        "OpenZeppelin Documentation",
-        "Ethereum Whitepaper",
-        "Mastering Blockchain",
-        "Mastering Ethereum"
+    "Back-end Technologies": [
+        "Node.js",
+        "Express.js",
+        "Mongoose",
+        "Redis",
+        "Kafka",
+        "Postgresql",
+        "Postgresql",
+        "Passport.js",
+        "Express-Session",
+        "Cloudinary",
+    ],
+
+    "Devops": [
+        "AWS",
+        "Docker ",
+        "Kubernetes ",
+        "CI/CD ",
     ]
 };
 
