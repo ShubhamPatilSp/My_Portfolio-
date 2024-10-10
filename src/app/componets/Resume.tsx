@@ -42,7 +42,6 @@ const Resume = () => {
                             </a>
                         ))}
                     </div>
-
                 </header>
 
                 <main className="p-10">
@@ -167,6 +166,17 @@ const Resume = () => {
                                     "CI/CD",
                                 ]}
                             />
+                            <SkillCategory
+                                title="Other Skills"
+                                skills={[
+                                    "Monorepos (Turborepo)",
+                                    "OpenAPI",
+                                    "Message Queues (Kafka, Redis)",
+                                    "Testing (Node.js applications)",
+                                    "Rate Limiting",
+                                    "Authentication (NextAuth, Passport.js)",
+                                ]}
+                            />
                         </div>
                     </section>
 
@@ -230,13 +240,16 @@ const ProjectCard = ({ title, description, details, technologies }) => (
 const SkillCategory = ({ title, skills }) => (
     <div className="mb-6">
         <h3 className="text-xl font-medium mb-3 text-white">{title}</h3>
-        <div className="flex flex-wrap gap-2">
+        <ul className="flex flex-wrap gap-2">
             {skills.map((skill, index) => (
-                <span key={index} className="px-3 py-1 bg-gray-700 rounded-full text-sm">
+                <li
+                    key={index}
+                    className="px-3 py-1 bg-indigo-900 text-white rounded-full text-sm"
+                >
                     {skill}
-                </span>
+                </li>
             ))}
-        </div>
+        </ul>
     </div>
 );
 

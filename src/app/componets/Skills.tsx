@@ -10,7 +10,7 @@ const skills = {
         "TypeScript",
         "React.js",
         "Next.js",
-        "EJS",
+        "EJS"
     ],
     "Back-end Technologies": [
         "Node.js",
@@ -18,20 +18,35 @@ const skills = {
         "Mongoose",
         "Redis",
         "Kafka",
-        "Postgresql",
-        "Postgresql",
+        "PostgreSQL",
         "Passport.js",
         "Express-Session",
         "Cloudinary",
+        "Zod",
+        "RESTful APIs",
+        "WebSockets",
+        "gRPC"
     ],
-
-    "Devops": [
-        "AWS",
-        "Docker ",
-        "Kubernetes ",
-        "CI/CD ",
+    "DevOps": [
+        "AWS (EC2, S3, CDN, Load Balancer)",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Nginx",
+        "Serverless Architecture",
+        "Prometheus",
+        "Grafana"
+    ],
+    "Other Skills": [
+        "Monorepos (Turborepo)",
+        "OpenAPI",
+        "Message Queues (Kafka, Redis)",
+        "Testing (Node.js applications)",
+        "Rate Limiting",
+        "Authentication (NextAuth, Passport.js)"
     ]
-};
+}
+
 
 const SkillsSection = () => {
     return (
