@@ -11,7 +11,7 @@ function Contact() {
     const email = "xshuubhampatil@gmail.com";
     const linkedinUrl = "https://www.linkedin.com/in/shubham-patil-8494982b0";
     const githubUrl = "https://github.com/ShubhamPatilSp";
-    const twitterUrl = "https://x.com/x_shuubhamm";
+    const twitterUrl = "https://x.com/x__shubham";
 
     return (
         <div className="min-h-screen bg-black py-12 pt-36 relative mt-[-70px]">
