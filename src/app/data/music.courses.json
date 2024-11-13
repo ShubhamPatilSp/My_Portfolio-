@@ -2,6 +2,17 @@
   "courses": [
     {
       "id": 1,
+      "title": "Photography-Studio",
+      "slug": "",
+      "description": "",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/Photography.png",
+      "link": "https://photography-studio-git-main-shubhampatilsps-projects.vercel.app/"
+    },
+    {
+      "id": 1,
       "title": "video-processing-pipeline",
       "slug": "",
       "description": "",
