@@ -13,6 +13,17 @@
     },
     {
       "id": 1,
+      "title": " Awwwards Winning Website",
+      "slug": "",
+      "description": "",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/Winning-Website.png",
+      "link": "https://animated-website-sand.vercel.app/"
+    },
+    {
+      "id": 1,
       "title": "video-processing-pipeline",
       "slug": "",
       "description": "",
