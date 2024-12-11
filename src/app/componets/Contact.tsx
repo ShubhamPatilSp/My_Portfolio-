@@ -14,7 +14,7 @@ function Contact() {
     const twitterUrl = "https://x.com/x__shubham";
 
     return (
-        <div className="min-h-screen bg-black py-12 pt-36 relative mt-[-70px]">
+        <div className="min-h-screen bg-black py-12 pt-30 relative mt-[-70px]">
             <BackgroundBeams className="absolute top-0 left-0 w-full h-full z-0 animate-fadeIn" />
             <div className="max-w-3xl mx-auto p-10 relative z-10 bg-black shadow-lg rounded-lg border-t-4 border-purple-500">
                 <h1 className="text-5xl md:text-8xl text-center font-extrabold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-600">
