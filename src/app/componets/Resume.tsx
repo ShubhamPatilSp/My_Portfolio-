@@ -218,7 +218,7 @@ const Resume = () => {
             <div className="flex justify-center mt-7 mb-[40px]">
                 <Button asChild>
                     <a
-                        href="/courses/cv/Shubham Patil Resume 7.pdf"
+                        href="/courses/Shubham Patil cv.pdf"
                         download
                         className="inline-flex items-center px-4 py-2"
                     >
