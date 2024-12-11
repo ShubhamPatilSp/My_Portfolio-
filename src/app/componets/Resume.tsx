@@ -22,13 +22,14 @@ const Resume = () => {
             <div className="max-w-5xl mx-auto bg-gray-900 shadow-2xl rounded-lg overflow-hidden border border-gray-800">
                 <header className="bg-gradient-to-r from-purple-900 to-indigo-900 text-white p-10">
                     <h1 className="text-5xl font-bold mb-2">Shubham Patil</h1>
+                    <p className="text-xl mb-4">Freelancer</p>
                     <div className="flex flex-wrap gap-4 text-sm">
                         {[
                             { name: "xshuubhampatil@gmail.com", link: "mailto:xshuubhampatil@gmail.com" },
                             { name: "+91 8421518624", link: "tel:+918421518624" },
-                            { name: "LinkedIn", link: "https://www.linkedin.com/in/shubham-patil-8494982b0" },
-                            { name: "GitHub", link: "https://github.com/ShubhamPatilSp" },
-                            { name: "X", link: "https://x.com/x__shubham" }
+                            { name: "LinkedIn", link: "#" },
+                            { name: "GitHub", link: "#" },
+                            { name: "Portfolio", link: "#" }
                         ].map((item, index) => (
                             <a
                                 key={index}
@@ -45,7 +46,7 @@ const Resume = () => {
 
                 <main className="p-10">
                     <section className="mb-12">
-                        <h2 className="text-3xl font-semibold mb-6 text-white">Freelancer Projects</h2>
+                        <h2 className="text-3xl font-semibold mb-6 text-white">Projects</h2>
                         {isClient && (
                             <>
                                 <ProjectCard
@@ -83,10 +84,7 @@ const Resume = () => {
                                         "React Hooks"
                                     ]}
                                 />
-                        <h2 className="text-3xl font-semibold mb-6 text-white">Projects</h2>
-
                                 <ProjectCard
-                                
                                     title="AutoDeploy Pipeline"
                                     description="Developed a comprehensive automation pipeline to clone repositories, build projects, and upload outputs to AWS S3 using Node.js and Redis for logging."
                                     details={[
@@ -169,40 +167,56 @@ const Resume = () => {
                     </section>
 
                     <section className="mb-12">
-                        <h2 className="text-3xl font-semibold mb-6 text-white">Skills</h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <SkillCategory
-                                title="Front-end Technologies"
-                                skills={[
-                                    "Next.js",
-                                    "React.js",
-                                    "JavaScript",
-                                    "TypeScript",
-                                    "HTML",
-                                    "CSS",
-                                    "Tailwind",
-                                    "Bootstrap",
-                                ]}
-                            />
-                            <SkillCategory
-                                title="Back-end Technologies"
-                                skills={[
-                                    "Node.js",
-                                    "Express.js",
-                                    "Mongoose",
-                                    "MongoDB",
-                                ]}
-                            />
-                            <SkillCategory
-                                title="Basic DevOps"
-                                skills={[
-                                    "Docker",
-                                    "AWS",
-                                    "CI/CD",
-                                ]}
-                            />
-                        </div>
-                    </section>
+  <h2 className="text-3xl font-semibold mb-6 text-white">Skills</h2>
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <SkillCategory
+      title="Front-end Technologies"
+      skills={[
+        "Next.js",
+        "React.js",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Tailwind",
+        "Bootstrap",
+      ]}
+    />
+    <SkillCategory
+      title="Back-end Technologies"
+      skills={[
+        "Node.js",
+        "Express.js",
+        "Mongoose",
+        "MongoDB",
+        "Redis",
+        "Kafka",
+        "PostgreSQL",
+        "Prisma",
+      ]}
+    />
+    <SkillCategory
+      title="DevOps"
+      skills={[
+        "Docker",
+        "AWS",
+        "Kubernetes",
+        "CI/CD",
+      ]}
+    />
+    <SkillCategory
+      title="Other Skills"
+      skills={[
+        "Monorepos (Turborepo)",
+        "OpenAPI",
+        "Message Queues (Kafka, Redis)",
+        "Testing (Node.js applications)",
+        "Rate Limiting",
+        "Authentication (NextAuth, Passport.js)",
+      ]}
+    />
+  </div>
+</section>
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-semibold mb-6 text-white">Education</h2>
@@ -218,7 +232,7 @@ const Resume = () => {
             <div className="flex justify-center mt-7 mb-[40px]">
                 <Button asChild>
                     <a
-                        href="/courses/Shubham Patil cv.pdf"
+                        href="/courses/cv/Shubham Patil Resume 7.pdf"
                         download
                         className="inline-flex items-center px-4 py-2"
                     >
