@@ -2,7 +2,7 @@
   "courses": [
     {
       "id": 1,
-      "title": "Photography-Studio",
+      "title": "Photography-Studio (Live)",
       "slug": "",
       "description": "",
       "price": 99.99,
@@ -13,7 +13,7 @@
     },
     {
       "id": 1,
-      "title": " Awwwards Winning Website",
+      "title": " Awwwards Winning Website (Live)",
       "slug": "",
       "description": "",
       "price": 99.99,
@@ -46,9 +46,9 @@
     },
     {
       "id": 2,
-      "title": "Traveller",
+      "title": "Traveller (Live)",
       "slug": "piano-for-beginners",
-      "description": "Live",
+      "description": "",
       "price": 109.99,
       "instructor": "Jane Smith",
       "isFeatured": false,
@@ -57,9 +57,9 @@
     },
     {
       "id": 1,
-      "title": "virtualr",
+      "title": "virtualr (Live)",
       "slug": "",
-      "description": "Live",
+      "description": "",
       "price": 99.99,
       "instructor": "John Doe",
       "isFeatured": true,
@@ -68,9 +68,9 @@
     },
     {
       "id": 1,
-      "title": "Modern-Web-",
+      "title": "Modern-Web (Live)",
       "slug": "",
-      "description": "Live",
+      "description": "",
       "price": 99.99,
       "instructor": "John Doe",
       "isFeatured": true,
@@ -90,9 +90,9 @@
     },
     {
       "id": 5,
-      "title": "Weathher",
+      "title": "Weathher (Live)",
       "slug": "jazz-improvisation",
-      "description": "Live",
+      "description": "",
       "price": 139.99,
       "instructor": "Chris Davis",
       "isFeatured": false,
@@ -101,9 +101,9 @@
     },
     {
       "id": 4,
-      "title": "Currency-Converter",
+      "title": "Currency-Converter (Live)",
       "slug": "",
-      "description": "Live",
+      "description": "",
       "price": 129.99,
       "instructor": "",
       "isFeatured": false,
